@@ -265,8 +265,9 @@ body {
 
   .card-group {
     flex-direction: row;
+    height: 800px;
     padding: 40px;
-    gap: 30px;
+    gap: 50px;
   }
 
   .card {
@@ -274,8 +275,6 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
     border: 1px solid black;
-    border-radius: 5%;
-    box-shadow: 11px 9px 5px -6px rgba(0, 0, 0, 0.75);
   }
 
   .card__image {
@@ -290,6 +289,11 @@ body {
     margin-top: 10px;
     border: 1px solid;
     cursor: pointer;
+  }
+
+  .card__title {
+    font-size: 22px;
+    padding-top: 20px;
   }
 
   .card__button:hover {
