@@ -24,9 +24,12 @@ body {
 }
 
 .custom-nav {
-  background-color: darkred;
-  !important;
-  color: white !important;
+  background-color: darkred; 
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
 }
 
 .aside {
@@ -107,7 +110,7 @@ body {
       "aside"
       "main"
       "footer";
-  }
+  }  
 
   .main__title {
     color: darkred;
@@ -139,7 +142,7 @@ body {
       "nav nav"
       "aside  main"
       "footer footer";
-  }
+  }  
 
   .aside__label {
     padding-top: 5px;
@@ -186,8 +189,6 @@ body {
     border: 1px solid;
     cursor: pointer;
   }
-
-
 
   .card__title {
     font-size: 22px;

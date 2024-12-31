@@ -9,6 +9,7 @@ body {
 
 .container {
   display: grid;
+  min-width: 400px;
 }
 
 .nav {
@@ -17,6 +18,10 @@ body {
 
 .custom-nav {
   background-color: darkred;
+  color: white;
+}
+
+.navbar-nav .nav-link {
   color: white;
 }
 
@@ -78,66 +83,31 @@ body {
       "aside"
       "main"
       "footer";
-  }
-
-  .nav {
-    height: 10vh;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+  }  
 
   .nav__logo {
     height: 35px;
     width: 105px;
     margin-left: 15px;
     cursor: none;
-  }
-
-  .nav__hamburguer {
-    display: block;
-    color: white;
-    margin-right: 15px;
-    cursor: pointer;
-  }
-
-  .nav__items {
-    display: none;
-  }
+  }  
 
   .aside {
-    height: 13vh;
-    row-gap: 10px;
+    padding: 20px 0;    
   }
 
   .main {
-    grid-row-gap: 30px;
-    grid-template-columns: 1fr;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-items: center;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  } 
 
-  .card {
-    width: 80%;
-    row-gap: 15px;
-    border: 1px solid black;
-    border-radius: 3%;
-    overflow: hidden;
+  .location{
+    display: flex;
+    flex-direction: column;
   }
-
-  .card__button {
-    font-size: 14px;
-    height: 30px;
-    margin-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .pagination {
-    margin-bottom: 15px;
-  }
-
+  
   .footer {
     height: 100px;
   }

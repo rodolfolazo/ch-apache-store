@@ -28,6 +28,10 @@ body {
   color: white  !important;
 }
 
+.navbar-nav .nav-link {
+  color: white;
+}
+
 .aside {
   grid-area: aside;
   background-color: lightblue;
@@ -112,32 +116,14 @@ body {
       "aside"
       "main"
       "footer";
-  }
-
-  .nav {
-    height: 10vh;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+  }  
 
   .nav__logo {
     height: 35px;
     width: 105px;
     margin-left: 15px;
     cursor: none;
-  }
-
-  .nav__hamburguer {
-    display: block;
-    color: white;
-    margin-right: 15px;
-    cursor: pointer;
-  }
-
-  .nav__items {
-    display: none;
-  }
+  }  
 
   .aside {
     height: 13vh;

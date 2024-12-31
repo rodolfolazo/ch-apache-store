@@ -12,11 +12,15 @@ body {
 }
 
 .nav {
-  grid-area: nav;  
+  grid-area: nav;
 }
 
-.custom-nav{
+.custom-nav {
   background-color: darkred;
+  color: white;
+}
+
+.navbar-nav .nav-link {
   color: white;
 }
 
@@ -41,7 +45,7 @@ body {
 }
 
 .main {
-  grid-area: main;  
+  grid-area: main;
   padding: 120px;
 }
 
@@ -67,14 +71,7 @@ body {
       "aside"
       "main"
       "footer";
-  }
-
-  .nav {
-    height: 10vh;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+  }  
 
   .nav__logo {
     height: 35px;
@@ -83,20 +80,10 @@ body {
     cursor: none;
   }
 
-  .nav__hamburguer {
-    display: block;
-    color: white;
-    margin-right: 15px;
-    cursor: pointer;
-  }
-
-  .nav__items {
-    display: none;
-  }
-
   .aside {
-    height: 13vh;
-    row-gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .main {
@@ -121,11 +108,7 @@ body {
     margin-bottom: 15px;
     padding-left: 5px;
     padding-right: 5px;
-  }
-
-  .pagination {
-    margin-bottom: 15px;
-  }
+  } 
 
   .footer {
     height: 100px;
@@ -142,7 +125,7 @@ body {
       "nav nav"
       "aside  main"
       "footer footer";
-  }  
+  }
 
   .aside__label {
     padding-top: 5px;
