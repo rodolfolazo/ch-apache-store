@@ -118,6 +118,12 @@ body {
     padding-top: 20px;
   }
 
+  .aside {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
   .card-group{
     flex-direction: column;
     gap:20px;

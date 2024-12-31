@@ -126,8 +126,9 @@ body {
   }  
 
   .aside {
-    height: 13vh;
-    row-gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .main {
