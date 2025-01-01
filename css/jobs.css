@@ -49,6 +49,11 @@ body {
   padding: 120px;
 }
 
+.main__title{
+  font-weight: 700;
+  color:darkred;
+}
+
 .footer {
   grid-area: footer;
   background-color: darkred;

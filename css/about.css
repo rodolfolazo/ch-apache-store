@@ -56,6 +56,8 @@ body {
 .about__title {
   color: darkred;
   margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .about__subtitle {
