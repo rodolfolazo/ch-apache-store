@@ -15,21 +15,21 @@ body {
   grid-area: nav;
 }
 
-.nav__logo {
-  background-image: url(img/logo.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  cursor: pointer;
-}
-
 .custom-nav {
-  background-color: darkred; 
+  background-color: darkred;
   color: white;
 }
 
 .navbar-nav .nav-link {
   color: white;
+}
+
+.navbar .navbar-toggler {
+  border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .aside {
@@ -102,15 +102,15 @@ body {
   font-size: 12px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   .container {
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;
     grid-template-areas:
       "nav"
       "aside"
       "main"
       "footer";
-  }  
+  }
 
   .main__title {
     color: darkred;
@@ -126,20 +126,20 @@ body {
     margin-bottom: 30px;
   }
 
-  .card-group{
+  .card-group {
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     align-content: center;
   }
 
-  .card-news{
+  .card-news {
     margin: 0 auto;
   }
 
-  .main{
+  .main {
     margin-bottom: 20px;
   }
-  
+
 }
 
 @media (min-width: 901px) {
@@ -150,7 +150,7 @@ body {
       "nav nav"
       "aside  main"
       "footer footer";
-  }  
+  }
 
   .aside__label {
     padding-top: 5px;
@@ -161,7 +161,7 @@ body {
     margin-bottom: 5px;
   }
 
-  .main{
+  .main {
     overflow-y: auto;
   }
 

@@ -14,7 +14,6 @@ body {
 
 .nav {
   grid-area: nav;
-  width: 100%;
 }
 
 .custom-nav {
@@ -24,6 +23,14 @@ body {
 
 .navbar-nav .nav-link {
   color: white;
+}
+
+.navbar .navbar-toggler {
+  border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .aside {
@@ -51,9 +58,10 @@ body {
   padding: 60px;
 }
 
-.main__title{
+.main__title {
   color: darkred;
   font-weight: 800;
+  padding-bottom: 20px;
 }
 
 .main h2 {
@@ -67,8 +75,8 @@ body {
   justify-content: space-between;
 }
 
-.location__name{
-  color:darkred;
+.location__name {
+  color: darkred;
 }
 
 .footer {
@@ -106,10 +114,10 @@ body {
     width: 105px;
     margin-left: 15px;
     cursor: none;
-  }  
+  }
 
   .aside {
-    padding: 20px 0;    
+    padding: 20px 0;
   }
 
   .main {
@@ -118,13 +126,13 @@ body {
     gap: 20px;
     padding: 0;
     margin: 0 auto;
-  } 
+  }
 
-  .location{
+  .location {
     display: flex;
     flex-direction: column;
   }
-  
+
   .footer {
     height: 100px;
   }
