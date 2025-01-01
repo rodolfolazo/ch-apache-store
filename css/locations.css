@@ -9,11 +9,12 @@ body {
 
 .container {
   display: grid;
-  min-width: 400px;
+  min-width: 510px;
 }
 
 .nav {
   grid-area: nav;
+  width: 100%;
 }
 
 .custom-nav {
@@ -106,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0;
     margin: 0 auto;
   } 
 
