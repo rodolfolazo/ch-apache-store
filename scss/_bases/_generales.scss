@@ -1,0 +1,17 @@
+$theme-color: darkred;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+.container {
+  display: grid;
+  margin: 0 auto;
+  padding: 0;
+}
+

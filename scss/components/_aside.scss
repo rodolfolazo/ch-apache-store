@@ -1,0 +1,18 @@
+.aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgray;
+
+  &__label {
+    color: #333;
+    font-size: 16px;
+  }
+
+  &__select {
+    color: #555;
+    font-size: 16px;
+  }
+}

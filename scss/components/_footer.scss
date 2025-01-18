@@ -1,0 +1,15 @@
+.footer{
+    grid-area: footer;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__social{
+      cursor:pointer;    
+    }
+    &__derechos{
+      font-size: 12px;    
+    }
+}
