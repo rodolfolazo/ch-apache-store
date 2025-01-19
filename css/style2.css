@@ -98,18 +98,21 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: darkred;
+  background-color: #360000;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50px;
 }
 .footer__social {
   cursor: pointer;
 }
 .footer__derechos {
-  font-size: 12px;
+  padding-top: 10px;
+  font-size: 10px;
+  text-align: center;
 }
 
 /* Media queries version mobile */
@@ -305,18 +308,6 @@ body {
   }
   .main-locations {
     overflow-y: auto;
-  }
-  .footer {
-    background-color: #360000;
-    height: 50px;
-  }
-  .footer__social {
-    cursor: pointer;
-  }
-  .footer__derechos {
-    padding-top: 10px;
-    font-size: 10px;
-    text-align: center;
   }
 }
 
