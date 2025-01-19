@@ -52,6 +52,31 @@ body {
   font-size: 16px;
 }
 
+.main {
+  grid-area: main;
+  overflow-y: auto;
+}
+.main--about {
+  padding: 20px;
+}
+.main--about__title {
+  color: darkred;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.main--about__subtitle {
+  color: darkred;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.main--about__text {
+  color: #333;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 20px;
+}
+
 .main-products {
   grid-area: main;
   display: grid;
@@ -72,28 +97,6 @@ body {
   color: white;
   border: 1px solid darkred;
   font-weight: 700;
-}
-
-.main-about {
-  grid-area: main;
-  padding: 20px;
-}
-.main-about__title {
-  color: darkred;
-  margin-bottom: 20px;
-  font-weight: 700;
-  text-align: center;
-}
-.main-about__subtitle {
-  color: darkred;
-  font-size: 24px;
-  padding-left: 20px;
-}
-.main-about__text {
-  color: #333;
-  text-align: justify;
-  margin-top: 20px;
-  padding: 20px;
 }
 
 .footer {
@@ -255,9 +258,6 @@ body {
   .main-jobs {
     overflow-y: auto;
     padding: 20px;
-  }
-  .main-about {
-    overflow-y: auto;
   }
   .main-news {
     overflow-y: auto;
