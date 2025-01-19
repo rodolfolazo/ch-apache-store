@@ -104,15 +104,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50px;
 }
 .footer__social {
   cursor: pointer;
 }
 .footer__derechos {
-  padding-top: 10px;
-  font-size: 10px;
-  text-align: center;
+  font-size: 12px;
 }
 
 /* Media queries version mobile */
