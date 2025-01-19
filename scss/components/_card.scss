@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 11px 9px 5px -6px rgba(0, 0, 0, 0.75);
+    &__image{      
+      width: 80%;
+      object-fit: cover;
+    }
+    &__button{
+      background-color: darkred;
+      color: white;
+      border: 1px solid darkred;
+      font-weight: 700;
+      height: 2.5rem;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-top: 10px;
+      border: 1px solid;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+      &:hover{
+        background-color: red;
+      }
+    }
+    &__title{
+        font-size: 22px;
+        padding-top: 20px;
+    }
+  }

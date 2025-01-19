@@ -1,6 +1,14 @@
 .main{
     grid-area: main;
     overflow-y: auto;
+    &--products{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        justify-items: center;
+        gap: 25px 0;        
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     &--about{        
         padding: 20px;        
         &__title{
