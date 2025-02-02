@@ -29,4 +29,14 @@
             padding: 20px;    
         }
     }
+    &--jobs{
+        overflow-y: auto;
+        padding: 20px;
+        &__title{
+            color: $theme-color;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
 }

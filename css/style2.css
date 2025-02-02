@@ -87,6 +87,16 @@ body {
   margin-top: 20px;
   padding: 20px;
 }
+.main--jobs {
+  overflow-y: auto;
+  padding: 20px;
+}
+.main--jobs__title {
+  color: darkred;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .card {
   display: flex;
