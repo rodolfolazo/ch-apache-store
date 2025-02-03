@@ -12,8 +12,10 @@
 ## Repositiorio
 [Enlace al repositorio](https://github.com/rodolfolazo/ch-apache-store.git)
 
-## URL
+## Github page
 [Página web](https://rodolfolazo.github.io/ch-apache-store/)
 
-## Comentarios
-Las páginas responsivas son el **home** y **jobs**
+## Netlify 
+[Página web](https://aquamarine-cheesecake-39b191.netlify.app/)
+
+
